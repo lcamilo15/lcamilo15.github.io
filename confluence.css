@@ -1,20 +1,3 @@
-.childpages-macro li {
-  list-style-type: decimal;
-} 
- 
-.childpages-macro > li {
-    counter-increment: root;
-} 
- 
-.childpages-macro > li > ul {
-    counter-reset: subsection;
-    list-style-type: none;
-} 
- 
-.childpages-macro > li > ul > li {
-        counter-increment: subsection;
-} 
- 
-.childpages-macro > li > ul > li:before {
-    content: counter(root) "." counter(subsection) " ";
-} 
+li {
+display:none;
+}
